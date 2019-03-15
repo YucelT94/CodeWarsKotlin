@@ -11,7 +11,7 @@ You can assume, for the purpose of this kata, that the supplied array will not b
  */
 
 fun main() {
-    val sif: SmallestIntegerFinder = SmallestIntegerFinder()
+    val sif = SmallestIntegerFinder()
     println(sif.findSmallestInt(listOf(15, 20, 10, 17, 22, 9001)))
 }
 

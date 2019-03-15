@@ -15,11 +15,11 @@ centuryFromYear(2000)  returns (20)
  */
 
 fun main() {
-    println(century(1705));
-    println(century(1900));
-    println(century(1601));
-    println(century(2000));
-    println(century(89));
+    println(century(1705))
+    println(century(1900))
+    println(century(1601))
+    println(century(2000))
+    println(century(89))
 }
 
 fun century(number: Int): Int = Math.ceil((number.toFloat() / 100).toDouble()).toInt()
