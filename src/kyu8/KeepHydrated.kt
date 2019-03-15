@@ -26,4 +26,4 @@ fun main() {
     println(litres(0.0))
 }
 
-fun litres(time: Double): Int = (time.toInt()/2)
+fun litres(time: Double): Int = (time.toInt() / 2)
